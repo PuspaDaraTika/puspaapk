@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
@@ -11,9 +11,8 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:background="#FFC107"
-        android:textSize="30sp"
         android:text="Anak 1"
-         />
+        android:textSize="30sp" />
 
     <TextView
         android:layout_width="100dp"
@@ -21,8 +20,7 @@
         android:background="#2196F3"
         android:text="Anak 2"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="40dp" />
+        />
 
     <TextView
         android:layout_width="100dp"
@@ -30,8 +28,15 @@
         android:background="#4CAF50"
         android:text="Anak 3"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="80dp" />
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
 
     <TextView
         android:layout_width="100dp"
@@ -39,27 +44,22 @@
         android:background="#FF5722"
         android:text="Anak 4"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="120dp" />
+      />
+
     <TextView
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:background="#7FA158"
         android:text="Anak 5"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="120dp" />
+        android:textSize="30sp" />
+
     <TextView
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:background="#67C69D"
         android:text="Anak 6"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="120dp" />
+         />
 
 
-
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
