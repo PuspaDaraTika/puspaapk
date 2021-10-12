@@ -94,23 +94,10 @@
             android:layout_marginBottom="400dp"
             android:background="@drawable/radius_box"
             android:orientation="horizontal">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src=""></ImageView>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignBottom=""
-                    android:text=""></TextView>
-            </LinearLayout>
-
+                    android:src="@drawable/agur"></ImageView>
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
@@ -120,22 +107,11 @@
             android:layout_marginTop="50dp"
             android:background="@drawable/radius_box"
             android:orientation="horizontal">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src=""></ImageView>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignBottom=""
-                    android:text=""></TextView>
-            </LinearLayout>
+                    android:src="@drawable/ceri"></ImageView>
 
         </RelativeLayout>
         <RelativeLayout
@@ -143,52 +119,27 @@
             android:layout_height="match_parent"
             android:layout_marginRight="200dp"
             android:layout_marginTop="250dp"
-            android:layout_marginBottom="200"
+            android:layout_marginBottom="200dp"
             android:background="@drawable/radius_box"
             android:orientation="horizontal">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src=""></ImageView>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignBottom=""
-                    android:text=""></TextView>
-            </LinearLayout>
-
+                    android:src="@drawable/lemon"></ImageView>
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="200dp"
             android:layout_marginTop="250dp"
-            android:layout_marginBottom="200"
+            android:layout_marginBottom="200dp"
             android:background="@drawable/radius_box"
             android:orientation="horizontal">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src=""></ImageView>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignBottom=""
-                    android:text=""></TextView>
-            </LinearLayout>
-
+                    android:src="@drawable/melon"></ImageView>
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
@@ -197,23 +148,10 @@
             android:layout_marginTop="450dp"
             android:background="@drawable/radius_box"
             android:orientation="horizontal">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src=""></ImageView>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignBottom=""
-                    android:text=""></TextView>
-            </LinearLayout>
-
+                    android:src="@drawable/nanas"></ImageView>
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
@@ -222,24 +160,8 @@
             android:layout_marginTop="450dp"
             android:background="@drawable/radius_box"
             android:orientation="horizontal">
-            <LinearLayout
+            <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src=""></ImageView>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignBottom=""
-                    android:text=""></TextView>
-            </LinearLayout>
-
-
-
-        </RelativeLayout>
+                android:src="@drawable/nanas"></ImageView>
 </RelativeLayout>
