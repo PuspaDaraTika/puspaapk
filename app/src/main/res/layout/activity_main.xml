@@ -106,12 +106,14 @@
             android:orientation="vertical"
             tools:context=".MainActivity">
             <ImageView
+                android:id="@+id/iv_telpon"
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
                 android:src="@drawable/onlineorder"
                 android:background="@color/white">
             </ImageView>
             <ImageView
+                android:id="@+id/iv_salad"
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
                 android:src="@drawable/salad"
@@ -119,6 +121,7 @@
                 android:background="@color/white">
             </ImageView>
             <ImageView
+                android:id="@+id/iv_pizza"
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
                 android:src="@drawable/pizza"
@@ -134,17 +137,20 @@
             android:orientation="vertical"
             tools:context=".MainActivity">
             <ImageView
+                android:id="@+id/iv_foodpack"
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
                 android:src="@drawable/foodpack"
                 android:background="@color/white"></ImageView>
             <ImageView
+                android:id="@+id/iv_fastfood"
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
                 android:src="@drawable/fastfood"
                 android:layout_marginTop="20dp"
                 android:background="@color/white"></ImageView>
             <ImageView
+                android:id="@+id/iv_ayam"
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
                 android:src="@drawable/roastedchicken"
